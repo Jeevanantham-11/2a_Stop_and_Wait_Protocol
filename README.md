@@ -18,23 +18,23 @@ Algorithm – Server Side
 
 (7)Repeat the following steps until communication ends:
 
-    (a)Read data from the user (frame).
+(a)Read data from the user (frame).
 
-    (b)Send the data to the client using send().
+(b)Send the data to the client using send().
 
-    (c)Wait for acknowledgement from the client using recv().
+(c)Wait for acknowledgement from the client using recv().
 
-    (d)If acknowledgement is received:
+(d)If acknowledgement is received:
 
-        Display the acknowledgement.
+•Display the acknowledgement.
 
-        Continue sending the next data.
+•Continue sending the next data.
 
-    (e)Else:
+(e)Else:
 
-        Close the connection.
+•Close the connection.
 
-        Stop execution.
+•Stop execution.
 
 (8)Stop
 
@@ -50,11 +50,11 @@ Algorithm – Client Side (Receiver)
 
 (5)Repeat the following steps:
 
-     Receive data (frame) from the server using recv().
+•Receive data (frame) from the server using recv().
 
-     Display the received data.
+•Display the received data.
 
-     Send acknowledgement to the server using send().
+•end acknowledgement to the server using send().
 
 (6)Continue until the server closes the connection.
 
