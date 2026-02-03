@@ -38,7 +38,7 @@ Algorithm – Server Side
 
 (8)Stop
 
-Algorithm – Client Side (Receiver)
+Algorithm – Client Side 
 
 (1)Start
 
